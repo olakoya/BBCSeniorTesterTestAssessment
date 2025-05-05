@@ -1,0 +1,31 @@
+Project Structure File
+-----------------------
+I am using Python, pytest, and pytest-bdd in PyCharm and set to structure the automation portion using:
+
+1. Gherkin feature files for scenarios.
+
+2. Step definitions using pytest-bdd.
+
+3. Requests library for API calls.
+
+4. Assertions and maybe time or datetime for checks like response time and date comparisons.
+
+
+
+bbc_test_assessment/
+│
+├── features_including_manual_tests/
+│   ├── scenario_1.feature
+│   ├── scenario_2.feature
+│   └── ...
+│
+├── steps_including_test_api_steps/
+│   ├── test_scenario_1_steps.py
+│   ├── test_scenario_2_steps.py
+│   └── ...
+│
+├── conftest.py
+├── requirements.txt
+└── README.md
+
+

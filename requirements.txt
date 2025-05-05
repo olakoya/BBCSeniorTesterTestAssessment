@@ -1,0 +1,3 @@
+pytest - for capabilities
+pytest-bdd
+requests (HTTP) - For API calls
