@@ -1,0 +1,71 @@
+Functional Manual Testing: Gherkin Manual Test Cases
+
+Test Case 1: Verify the schedule returns a list of episodes with valid id and type
+
+Feature: Schedule API Data Integrity
+
+  Scenario: Each schedule item has a non-empty ID and type is always "episode"
+    Given the BBC Schedule API endpoint is available
+    When I request the schedule for "bbc_one_london" on "2024-05-06"
+    Then each item in the "schedule" array should have a non-empty "id" field
+    And the "type" field of each item should be equal to "episode"
+
+Schedule Item ID and Type Validation
+
+| Test Case ID           | TC_API_001
+| ---------------------- | ---------------------------------------------------------------------------------
+| Title                  | Verify each schedule item has a non-empty ID and type is "episode"
+| Preconditions          | BBC Schedule API is accessible
+| Test Data              | Channel: `bbc_one_london`, Date: `2024-05-06`
+| Steps                  | 1. Send a GET request to `/schedules/bbc_one_london/2024-05-06`
+|                        | 2. Parse the JSON response
+|                        | 3. Iterate through each item in the `schedule` array
+| Expected Results       | - Each item has a non-empty `id` field
+|                        | - Each item has a `type` field equal to `episode`
+| Pass/Fail Criteria     | Test passes if all items meet both conditions
+
+
+
+Test Case 2: Verify only one episode is marked as "live" in the schedule
+
+Feature: Live Episode Verification
+
+  Scenario: Only one episode is marked as live in the schedule
+    Given the BBC Schedule API returns a schedule for "bbc_one_london" on "2024-05-06"
+    When I inspect all items in the "schedule" array
+    Then only one item should have the field "live" set to true
+
+Live Episode Uniqueness
+
+| Test Case ID           | TC_API_002
+| ---------------------- | -----------------------------------------------------------------------------------
+| Title                  | Verify only one episode is marked as "live"
+| Preconditions          | Schedule API returns valid data
+| Test Data              | Channel: `bbc_one_london`, Date: `2024-05-06`
+| Steps                  | 1. Send a GET request to the schedule API
+|                        | 2. Count the number of items where `"live": true`
+| Expected Results       | Only one item in the response has `"live": true`
+| Pass/Fail Criteria     | Test passes if exactly one episode is marked as live
+
+
+
+Test Case 3: Validate the transmission times for episodes
+
+Feature: Transmission Time Validity
+
+  Scenario: Transmission start time should be before end time for all episodes
+    Given the schedule for "bbc_one_london" on "2024-05-06" is retrieved from the API
+    When I look at the "transmission" field for each item
+    Then the "start" time should be earlier than the "end" time for each episode
+
+Transmission Time Validity
+
+| Test Case ID           | TC_API_003
+| ---------------------- | -----------------------------------------------------------------------------------------
+| Title                  | Verify that start time is before end time for transmissions
+| Preconditions          | Valid episode data returned from API
+| Test Data              | Channel: `bbc_one_london`, Date: `2024-05-06`
+| Steps                  | 1. Request schedule data from the API
+|                        | 2. For each episode, compare the `transmission.start` and `transmission.end` timestamps
+| Expected Results       | Each episode has a `start` time that is earlier than the corresponding `end` time
+| Pass/Fail Criteria     | Test passes if all episodes meet this condition
