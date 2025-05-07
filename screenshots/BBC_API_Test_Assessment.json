@@ -1,0 +1,982 @@
+{
+    "schedule": {
+      "channel": {
+        "id": "bbc_one_london",
+        "type": "channel",
+        "title": "BBC One",
+        "has_schedule": true,
+        "master_brand_id": "bbc_one",
+        "master_brand_title": "BBC One"
+      },
+      "elements": [
+        {
+          "id": "p0g9q573",
+          "scheduled_start": "2023-09-11T05:00:00.000Z",
+          "scheduled_end": "2023-09-11T08:15:00.000Z",
+          "duration": {
+            "value": "PT3H15M",
+            "text": "195 mins"
+          },
+          "transmission_start": "2023-09-11T05:00:00.000Z",
+          "transmission_end": "2023-09-11T08:13:54.520Z",
+          "blanked": false,
+          "repeat": false,
+          "episode": {
+            "id": "m001qgnd",
+            "live": false,
+            "type": "episode",
+            "title": "Breakfast",
+            "images": {
+              "type": "image",
+              "standard": "",
+              "inherited_from": "brand"
+            },
+            "labels": {
+              "category": "News"
+            },
+            "signed": false,
+            "status": "available",
+            "tleo_id": "b006v5tb",
+            "guidance": false,
+            "subtitle": "11/09/2023",
+            "synopses": {
+              "small": "The latest news, sport, business and weather from the BBC's Breakfast team. "
+            },
+            "versions": [
+              {
+                "hd": true,
+                "id": "m001qgnc",
+                "uhd": false,
+                "kind": "original",
+                "type": "version",
+                "events": [
+                  {
+                    "name": "started",
+                    "offset": 30,
+                    "system": "uas"
+                  },
+                  {
+                    "name": "ended",
+                    "offset": 11519,
+                    "system": "uas"
+                  },
+                  {
+                    "name": "iplxp-ep-started",
+                    "offset": 30,
+                    "system": "optimizely"
+                  },
+                  {
+                    "name": "iplxp-ep-watched",
+                    "offset": 10475,
+                    "system": "optimizely"
+                  },
+                  {
+                    "name": "iplxp-ep-started",
+                    "offset": 30,
+                    "system": "dax"
+                  },
+                  {
+                    "name": "iplxp-ep-watched",
+                    "offset": 10475,
+                    "system": "dax"
+                  }
+                ],
+                "download": true,
+                "duration": {
+                  "text": "194 mins",
+                  "value": "PT3H13M59.04S"
+                },
+                "availability": {
+                  "end": "2023-09-12T08:13:30Z",
+                  "start": "2023-09-11T08:13:30Z",
+                  "remaining": {
+                    "text": "Expires tomorrow 9:13am"
+                  }
+                },
+                "first_broadcast": "6am 11 Sep 2023",
+                "first_broadcast_date_time": "2023-09-11T05:00:00.000Z"
+              },
+              {
+                "hd": true,
+                "id": "m001qkpk",
+                "uhd": false,
+                "kind": "shortened",
+                "type": "version",
+                "events": [
+                  {
+                    "name": "started",
+                    "offset": 30,
+                    "system": "uas"
+                  },
+                  {
+                    "name": "ended",
+                    "offset": 10629,
+                    "system": "uas"
+                  },
+                  {
+                    "name": "iplxp-ep-started",
+                    "offset": 30,
+                    "system": "optimizely"
+                  },
+                  {
+                    "name": "iplxp-ep-watched",
+                    "offset": 9674,
+                    "system": "optimizely"
+                  },
+                  {
+                    "name": "iplxp-ep-started",
+                    "offset": 30,
+                    "system": "dax"
+                  },
+                  {
+                    "name": "iplxp-ep-watched",
+                    "offset": 9674,
+                    "system": "dax"
+                  }
+                ],
+                "download": true,
+                "duration": {
+                  "text": "179 mins",
+                  "value": "PT2H59M9.320S"
+                },
+                "availability": {
+                  "end": "2023-09-12T08:00:00Z",
+                  "start": "2023-09-11T08:00:00Z",
+                  "remaining": {
+                    "text": "Expires tomorrow 9am"
+                  }
+                },
+                "first_broadcast": "11 Sep 2023",
+                "first_broadcast_date_time": "2023-09-11T00:00:00.000Z"
+              }
+            ],
+            "childrens": false,
+            "parent_id": "b006v5tb",
+            "tleo_type": "brand",
+            "categories": [
+              "news"
+            ],
+            "has_credits": false,
+            "requires_ab": [
+              "u16",
+              "u18",
+              "o18"
+            ],
+            "master_brand": {
+              "id": "bbc_one",
+              "titles": {
+                "large": "BBC One",
+                "small": "BBC One",
+                "medium": "BBC One"
+              },
+              "ident_id": "p06g87jc",
+              "attribution": "bbc_one"
+            },
+            "release_date": "11 Sep 2023",
+            "related_links": [],
+            "original_title": "11/09/2023",
+            "programme_type": "self-contained",
+            "audio_described": false,
+            "requires_sign_in": true,
+            "release_date_time": "2023-09-11T00:00:00.000Z",
+            "lexical_sort_letter": "B",
+            "requires_tv_licence": true
+          },
+          "episode_id": "m001qgnd",
+          "version_id": "m001qgnc",
+          "service_id": "bbc_one_london",
+          "channel_title": "BBC One London",
+          "type": "broadcast",
+          "events": [
+            {
+              "name": "started",
+              "system": "uas",
+              "time": "2023-09-11T05:10:00.000Z"
+            },
+            {
+              "name": "ended",
+              "system": "uas",
+              "time": "2023-09-11T07:25:25.000Z"
+            },
+            {
+              "name": "iplxp-ep-started",
+              "system": "optimizely",
+              "time": "2023-09-11T05:00:30.000Z"
+            },
+            {
+              "name": "iplxp-ep-watched",
+              "system": "optimizely",
+              "time": "2023-09-11T07:25:25.000Z"
+            },
+            {
+              "name": "iplxp-ep-started",
+              "system": "dax",
+              "time": "2023-09-11T05:00:30.000Z"
+            },
+            {
+              "name": "iplxp-ep-watched",
+              "system": "dax",
+              "time": "2023-09-11T07:25:25.000Z"
+            }
+          ]
+        },
+        {
+          "id": "p0g9q575",
+          "scheduled_start": "2023-09-11T08:15:00.000Z",
+          "scheduled_end": "2023-09-11T09:00:00.000Z",
+          "duration": {
+            "value": "PT45M",
+            "text": "45 mins"
+          },
+          "transmission_start": "2023-09-11T08:13:54.520Z",
+          "transmission_end": "2023-09-11T08:59:02.560Z",
+          "blanked": false,
+          "repeat": false,
+          "episode": {
+            "id": "m001qgng",
+            "live": false,
+            "type": "episode",
+            "title": "Morning Live",
+            "images": {
+              "type": "image",
+              "standard": "",
+              "promotional": "",
+              "promotional_with_logo": ""
+            },
+            "labels": {
+              "category": "Entertainment"
+            },
+            "signed": false,
+            "status": "available",
+            "tleo_id": "m000nxkq",
+            "guidance": false,
+            "subtitle": "Series 5: 11/09/2023",
+            "synopses": {
+              "small": "Conversation, advice and great company to make your morning."
+            },
+            "versions": [
+              {
+                "hd": true,
+                "id": "m001qgnf",
+                "uhd": false,
+                "kind": "original",
+                "type": "version",
+                "events": [
+                  {
+                    "name": "started",
+                    "offset": 30,
+                    "system": "uas"
+                  },
+                  {
+                    "name": "ended",
+                    "offset": 2591,
+                    "system": "uas"
+                  },
+                  {
+                    "name": "iplxp-ep-started",
+                    "offset": 30,
+                    "system": "optimizely"
+                  },
+                  {
+                    "name": "iplxp-ep-watched",
+                    "offset": 2440,
+                    "system": "optimizely"
+                  },
+                  {
+                    "name": "iplxp-ep-started",
+                    "offset": 30,
+                    "system": "dax"
+                  },
+                  {
+                    "name": "iplxp-ep-watched",
+                    "offset": 2440,
+                    "system": "dax"
+                  }
+                ],
+                "download": true,
+                "duration": {
+                  "text": "45 mins",
+                  "value": "PT45M11.04S"
+                },
+                "availability": {
+                  "end": "2024-09-10T09:00:05Z",
+                  "start": "2023-09-11T09:00:05Z",
+                  "remaining": {
+                    "text": "Available for 11 months"
+                  }
+                },
+                "first_broadcast": "9:15am 11 Sep 2023",
+                "first_broadcast_date_time": "2023-09-11T08:15:00.000Z"
+              }
+            ],
+            "childrens": false,
+            "parent_id": "m001krns",
+            "tleo_type": "brand",
+            "categories": [
+              "entertainment"
+            ],
+            "has_credits": false,
+            "requires_ab": [
+              "u16",
+              "u18",
+              "o18"
+            ],
+            "master_brand": {
+              "id": "bbc_one",
+              "titles": {
+                "large": "BBC One",
+                "small": "BBC One",
+                "medium": "BBC One"
+              },
+              "ident_id": "p06g87jc",
+              "attribution": "bbc_one"
+            },
+            "release_date": "11 Sep 2023",
+            "related_links": [],
+            "original_title": "11/09/2023",
+            "programme_type": "self-contained",
+            "slice_subtitle": "11/09/2023",
+            "audio_described": false,
+            "parent_position": 91,
+            "requires_sign_in": true,
+            "release_date_time": "2023-09-11T00:00:00.000Z",
+            "lexical_sort_letter": "M",
+            "requires_tv_licence": true
+          },
+          "episode_id": "m001qgng",
+          "version_id": "m001qgnf",
+          "service_id": "bbc_one_london",
+          "channel_title": "BBC One London",
+          "type": "broadcast",
+          "events": [
+            {
+              "name": "started",
+              "system": "uas",
+              "time": "2023-09-11T08:23:54.000Z"
+            },
+            {
+              "name": "ended",
+              "system": "uas",
+              "time": "2023-09-11T08:47:45.000Z"
+            },
+            {
+              "name": "iplxp-ep-started",
+              "system": "optimizely",
+              "time": "2023-09-11T08:14:24.000Z"
+            },
+            {
+              "name": "iplxp-ep-watched",
+              "system": "optimizely",
+              "time": "2023-09-11T08:47:45.000Z"
+            },
+            {
+              "name": "iplxp-ep-started",
+              "system": "dax",
+              "time": "2023-09-11T08:14:24.000Z"
+            },
+            {
+              "name": "iplxp-ep-watched",
+              "system": "dax",
+              "time": "2023-09-11T08:47:45.000Z"
+            }
+          ]
+        },
+        {
+          "id": "p0g9q577",
+          "scheduled_start": "2023-09-11T09:00:00.000Z",
+          "scheduled_end": "2023-09-11T09:45:00.000Z",
+          "duration": {
+            "value": "PT45M",
+            "text": "45 mins"
+          },
+          "transmission_start": "2023-09-11T09:00:40.000Z",
+          "transmission_end": "2023-09-11T09:44:25.000Z",
+          "blanked": false,
+          "repeat": true,
+          "episode": {
+            "id": "m001dhyb",
+            "live": false,
+            "type": "episode",
+            "title": "Critical Incident",
+            "images": {
+              "type": "image",
+              "standard": "",
+              "promotional": "",
+              "promotional_with_logo": ""
+            },
+            "signed": false,
+            "status": "available",
+            "tleo_id": "m0005x2b",
+            "guidance": false,
+            "subtitle": "Series 3: Episode 1",
+            "synopses": {
+              "large": "In a bid to protect his colleagues from a man wielding three knives, a police sergeant in Bristol activates his taser. A Yorkshire paramedic is threatened with a gun when he’s called out to a house, and Warwickshire Police officers undertake advanced driver training.",
+              "small": "A Yorkshire paramedic is threatened with a gun.",
+              "medium": "In a bid to protect his colleagues from a man wielding three knives, a police sergeant in Bristol activates his taser. Elsewhere, a Yorkshire paramedic is threatened with a gun."
+            },
+            "versions": [
+              {
+                "hd": true,
+                "id": "m001qgnh",
+                "uhd": false,
+                "kind": "original",
+                "type": "version",
+                "events": [
+                  {
+                    "name": "started",
+                    "offset": 30,
+                    "system": "uas"
+                  },
+                  {
+                    "name": "ended",
+                    "offset": 2505,
+                    "system": "uas"
+                  },
+                  {
+                    "name": "iplxp-ep-started",
+                    "offset": 30,
+                    "system": "optimizely"
+                  },
+                  {
+                    "name": "iplxp-ep-watched",
+                    "offset": 2363,
+                    "system": "optimizely"
+                  },
+                  {
+                    "name": "iplxp-ep-started",
+                    "offset": 30,
+                    "system": "dax"
+                  },
+                  {
+                    "name": "iplxp-ep-watched",
+                    "offset": 2363,
+                    "system": "dax"
+                  }
+                ],
+                "download": true,
+                "duration": {
+                  "text": "44 mins",
+                  "value": "PT43M45.040S"
+                },
+                "availability": {
+                  "end": "2023-11-11T11:00:00Z",
+                  "start": "2023-09-11T09:00:00Z",
+                  "remaining": {
+                    "text": "Available for 1 month"
+                  }
+                },
+                "first_broadcast": "24 Oct 2022",
+                "first_broadcast_date_time": "2022-10-24T00:00:00.000Z"
+              }
+            ],
+            "childrens": false,
+            "parent_id": "m001dhyf",
+            "tleo_type": "brand",
+            "categories": [],
+            "has_credits": true,
+            "requires_ab": [
+              "u16",
+              "u18",
+              "o18"
+            ],
+            "master_brand": {
+              "id": "bbc_one",
+              "titles": {
+                "large": "BBC One",
+                "small": "BBC One",
+                "medium": "BBC One"
+              },
+              "ident_id": "p06g87jc",
+              "attribution": "bbc_one"
+            },
+            "release_date": "24 Oct 2022",
+            "related_links": [],
+            "original_title": "Episode 1",
+            "programme_type": "self-contained",
+            "slice_subtitle": "Episode 1",
+            "audio_described": false,
+            "parent_position": 1,
+            "requires_sign_in": true,
+            "release_date_time": "2022-10-24T00:00:00.000Z",
+            "lexical_sort_letter": "C",
+            "requires_tv_licence": true
+          },
+          "episode_id": "m001dhyb",
+          "version_id": "m001qgnh",
+          "service_id": "bbc_one_london",
+          "channel_title": "BBC One London",
+          "type": "broadcast",
+          "events": [
+            {
+              "name": "started",
+              "system": "uas",
+              "time": "2023-09-11T09:10:40.000Z"
+            },
+            {
+              "name": "ended",
+              "system": "uas",
+              "time": "2023-09-11T09:33:28.000Z"
+            },
+            {
+              "name": "iplxp-ep-started",
+              "system": "optimizely",
+              "time": "2023-09-11T09:01:10.000Z"
+            },
+            {
+              "name": "iplxp-ep-watched",
+              "system": "optimizely",
+              "time": "2023-09-11T09:33:28.000Z"
+            },
+            {
+              "name": "iplxp-ep-started",
+              "system": "dax",
+              "time": "2023-09-11T09:01:10.000Z"
+            },
+            {
+              "name": "iplxp-ep-watched",
+              "system": "dax",
+              "time": "2023-09-11T09:33:28.000Z"
+            }
+          ]
+        },
+        {
+          "id": "p0g9q57c",
+          "scheduled_start": "2023-09-11T09:45:00.000Z",
+          "scheduled_end": "2023-09-11T10:15:00.000Z",
+          "duration": {
+            "value": "PT30M",
+            "text": "30 mins"
+          },
+          "transmission_start": "2023-09-11T09:45:09.000Z",
+          "transmission_end": "2023-09-11T10:14:09.000Z",
+          "blanked": false,
+          "repeat": true,
+          "episode": {
+            "id": "m001f87r",
+            "live": true,
+            "type": "episode",
+            "title": "Expert Witness",
+            "images": {
+              "type": "image",
+              "standard": "",
+              "promotional": "",
+              "promotional_with_logo": ""
+            },
+            "labels": {
+              "category": "Documentary"
+            },
+            "signed": false,
+            "status": "available",
+            "tleo_id": "p09vbzhs",
+            "guidance": false,
+            "subtitle": "Series 2: 1. Shallow Graves - Unearthing a Serial Killer",
+            "synopses": {
+              "large": "Some criminal investigations are so complicated that they require a number of expert witnesses to be involved. This programme examines how forensic evidence from a whole team of scientists turned a missing person case into a hunt for a murderer, and then into an investigation into one of Britain’s most notorious serial killers.\n\nAfter the body of a young Polish woman was discovered in the basement of a church in Glasgow, police observed an element of organisation and methodology behind the killing and became convinced the culprit had murdered before. They launched a huge operation to dig into the killer's life: where he had been living, what he had been doing, and which nearby crimes remained unsolved. Their investigation led them to two cold cases, but only evidence from expert witnesses could reveal if these were the work of the same killer. \n\nThe police enlisted the help of forensic scientists Jennifer Miller, Carol Rodgers and Peter Faulding - experts in a range of different disciplines, from bioarchaeology to forensic biology and ground-penetrating radar testing - to help them gather evidence. And despite the passage of time, the experts ensured that no piece of evidence was overlooked and that the truth was finally discovered.",
+              "small": "A wide range of expert witnesses help in the hunt for serial killer Peter Tobin.",
+              "medium": "The police turn to experts with a range of different disciplines to gather evidence in a missing person case. But this investigation soon turns into the hunt for a serial killer.",
+              "editorial": "The UK's biggest criminal cases, and how they were cracked by a band of unsung heroes"
+            },
+            "versions": [
+              {
+                "hd": true,
+                "id": "m001f87p",
+                "uhd": false,
+                "kind": "original",
+                "type": "version",
+                "events": [
+                  {
+                    "name": "started",
+                    "offset": 30,
+                    "system": "uas"
+                  },
+                  {
+                    "name": "ended",
+                    "offset": 1620,
+                    "system": "uas"
+                  },
+                  {
+                    "name": "iplxp-ep-started",
+                    "offset": 30,
+                    "system": "optimizely"
+                  },
+                  {
+                    "name": "iplxp-ep-watched",
+                    "offset": 1566,
+                    "system": "optimizely"
+                  },
+                  {
+                    "name": "iplxp-ep-started",
+                    "offset": 30,
+                    "system": "dax"
+                  },
+                  {
+                    "name": "iplxp-ep-watched",
+                    "offset": 1566,
+                    "system": "dax"
+                  }
+                ],
+                "download": true,
+                "duration": {
+                  "text": "29 mins",
+                  "value": "PT29M0.040S"
+                },
+                "availability": {
+                  "end": "2023-11-14T10:30:27Z",
+                  "start": "2022-11-14T10:30:27Z",
+                  "remaining": {
+                    "text": "Available for 2 months"
+                  }
+                },
+                "first_broadcast": "10am 14 Nov 2022",
+                "first_broadcast_date_time": "2022-11-14T10:00:00.000Z"
+              },
+              {
+                "hd": false,
+                "id": "p0dfysrm",
+                "uhd": false,
+                "kind": "audio-described",
+                "type": "version",
+                "events": [
+                  {
+                    "name": "started",
+                    "offset": 30,
+                    "system": "uas"
+                  },
+                  {
+                    "name": "ended",
+                    "offset": 1620,
+                    "system": "uas"
+                  },
+                  {
+                    "name": "iplxp-ep-started",
+                    "offset": 30,
+                    "system": "optimizely"
+                  },
+                  {
+                    "name": "iplxp-ep-watched",
+                    "offset": 1566,
+                    "system": "optimizely"
+                  },
+                  {
+                    "name": "iplxp-ep-started",
+                    "offset": 30,
+                    "system": "dax"
+                  },
+                  {
+                    "name": "iplxp-ep-watched",
+                    "offset": 1566,
+                    "system": "dax"
+                  }
+                ],
+                "download": false,
+                "duration": {
+                  "text": "29 mins",
+                  "value": "PT29M0.040S"
+                },
+                "availability": {
+                  "end": "2023-11-14T10:30:27Z",
+                  "start": "2022-11-14T10:30:27Z",
+                  "remaining": {
+                    "text": "Available for 2 months"
+                  }
+                },
+                "first_broadcast": "14 Nov 2022",
+                "first_broadcast_date_time": "2022-11-14T00:00:00.000Z"
+              }
+            ],
+            "childrens": false,
+            "parent_id": "m001f87t",
+            "tleo_type": "brand",
+            "categories": [
+              "audio-described",
+              "documentaries-crime-and-justice",
+              "documentaries"
+            ],
+            "has_credits": true,
+            "requires_ab": [
+              "u16",
+              "u18",
+              "o18"
+            ],
+            "master_brand": {
+              "id": "bbc_one",
+              "titles": {
+                "large": "BBC One",
+                "small": "BBC One",
+                "medium": "BBC One"
+              },
+              "ident_id": "p06g87jc",
+              "attribution": "bbc_one"
+            },
+            "release_date": "14 Nov 2022",
+            "related_links": [],
+            "original_title": "Shallow Graves - Unearthing a Serial Killer",
+            "programme_type": "sequential",
+            "slice_subtitle": "1. Shallow Graves - Unearthing a Serial Killer",
+            "audio_described": true,
+            "parent_position": 1,
+            "requires_sign_in": true,
+            "release_date_time": "2022-11-14T00:00:00.000Z",
+            "editorial_subtitle": "All episodes available now",
+            "lexical_sort_letter": "E",
+            "requires_tv_licence": true
+          },
+          "episode_id": "m001f87r",
+          "version_id": "m001f87p",
+          "service_id": "bbc_one_london",
+          "channel_title": "BBC One London",
+          "type": "broadcast",
+          "events": [
+            {
+              "name": "started",
+              "system": "uas",
+              "time": "2023-09-11T09:52:24.000Z"
+            },
+            {
+              "name": "ended",
+              "system": "uas",
+              "time": "2023-09-11T10:06:54.000Z"
+            },
+            {
+              "name": "iplxp-ep-started",
+              "system": "optimizely",
+              "time": "2023-09-11T09:45:39.000Z"
+            },
+            {
+              "name": "iplxp-ep-watched",
+              "system": "optimizely",
+              "time": "2023-09-11T10:06:54.000Z"
+            },
+            {
+              "name": "iplxp-ep-started",
+              "system": "dax",
+              "time": "2023-09-11T09:45:39.000Z"
+            },
+            {
+              "name": "iplxp-ep-watched",
+              "system": "dax",
+              "time": "2023-09-11T10:06:54.000Z"
+            }
+          ]
+        },
+        {
+          "id": "p0g9q57f",
+          "scheduled_start": "2023-09-11T10:15:00.000Z",
+          "scheduled_end": "2023-09-11T11:15:00.000Z",
+          "duration": {
+            "value": "PT1H",
+            "text": "60 mins"
+          },
+          "transmission_start": "2023-09-11T10:15:11.100Z",
+          "transmission_end": "2023-09-11T11:13:58.000Z",
+          "blanked": false,
+          "repeat": true,
+          "episode": {
+            "id": "m0019mkj",
+            "live": false,
+            "type": "episode",
+            "title": "Homes Under the Hammer",
+            "images": {
+              "type": "image",
+              "standard": "",
+              "promotional": "",
+              "promotional_with_logo": ""
+            },
+            "labels": {
+              "category": "Lifestyle"
+            },
+            "signed": false,
+            "status": "available",
+            "tleo_id": "b006v5kb",
+            "guidance": false,
+            "subtitle": "Series 25: Episode 35",
+            "synopses": {
+              "large": "A terraced cottage in Kent, a two-bed semi-detached with a wonderful garden in Suffolk and a four-bedroom terrace near Coventry are all sold at online auctions. Two homes are destined for the rental market while the third becomes a labour of love for its new owner who plans to make it his home.",
+              "small": "Featuring properties in Kent, Suffolk and Coventry.",
+              "medium": "Featuring a terraced cottage in Kent, a two-bed semi-detached with a wonderful garden in Suffolk and a four-bedroom terrace near Coventry."
+            },
+            "versions": [
+              {
+                "hd": true,
+                "id": "m0019mkh",
+                "uhd": false,
+                "kind": "original",
+                "type": "version",
+                "events": [
+                  {
+                    "name": "started",
+                    "offset": 30,
+                    "system": "uas"
+                  },
+                  {
+                    "name": "ended",
+                    "offset": 3409,
+                    "system": "uas"
+                  },
+                  {
+                    "name": "iplxp-ep-started",
+                    "offset": 30,
+                    "system": "optimizely"
+                  },
+                  {
+                    "name": "iplxp-ep-watched",
+                    "offset": 3176,
+                    "system": "optimizely"
+                  },
+                  {
+                    "name": "iplxp-ep-started",
+                    "offset": 30,
+                    "system": "dax"
+                  },
+                  {
+                    "name": "iplxp-ep-watched",
+                    "offset": 3176,
+                    "system": "dax"
+                  }
+                ],
+                "download": true,
+                "duration": {
+                  "text": "59 mins",
+                  "value": "PT58M49.280S"
+                },
+                "availability": {
+                  "end": "2023-10-11T12:00:00Z",
+                  "start": "2023-09-11T11:15:12Z",
+                  "remaining": {
+                    "text": "Available for 29 days"
+                  }
+                },
+                "first_broadcast": "11:15am 28 Jul 2022",
+                "first_broadcast_date_time": "2022-07-28T10:15:00.000Z"
+              },
+              {
+                "hd": false,
+                "id": "p0cph5nd",
+                "uhd": false,
+                "kind": "audio-described",
+                "type": "version",
+                "events": [
+                  {
+                    "name": "started",
+                    "offset": 30,
+                    "system": "uas"
+                  },
+                  {
+                    "name": "ended",
+                    "offset": 3409,
+                    "system": "uas"
+                  },
+                  {
+                    "name": "iplxp-ep-started",
+                    "offset": 30,
+                    "system": "optimizely"
+                  },
+                  {
+                    "name": "iplxp-ep-watched",
+                    "offset": 3176,
+                    "system": "optimizely"
+                  },
+                  {
+                    "name": "iplxp-ep-started",
+                    "offset": 30,
+                    "system": "dax"
+                  },
+                  {
+                    "name": "iplxp-ep-watched",
+                    "offset": 3176,
+                    "system": "dax"
+                  }
+                ],
+                "download": false,
+                "duration": {
+                  "text": "59 mins",
+                  "value": "PT58M49.280S"
+                },
+                "availability": {
+                  "end": "2023-10-11T12:00:00Z",
+                  "start": "2023-09-11T11:15:12Z",
+                  "remaining": {
+                    "text": "Available for 29 days"
+                  }
+                },
+                "first_broadcast": "28 Jul 2022",
+                "first_broadcast_date_time": "2022-07-28T00:00:00.000Z"
+              }
+            ],
+            "childrens": false,
+            "parent_id": "m0014s4b",
+            "tleo_type": "brand",
+            "categories": [
+              "audio-described",
+              "lifestyle"
+            ],
+            "has_credits": true,
+            "requires_ab": [
+              "u13",
+              "u16",
+              "u18",
+              "o18"
+            ],
+            "master_brand": {
+              "id": "bbc_one",
+              "titles": {
+                "large": "BBC One",
+                "small": "BBC One",
+                "medium": "BBC One"
+              },
+              "ident_id": "p06g87jc",
+              "attribution": "bbc_one"
+            },
+            "release_date": "28 Jul 2022",
+            "related_links": [],
+            "original_title": "Episode 35",
+            "programme_type": "self-contained",
+            "slice_subtitle": "Episode 35",
+            "audio_described": true,
+            "parent_position": 35,
+            "requires_sign_in": true,
+            "release_date_time": "2022-07-28T00:00:00.000Z",
+            "lexical_sort_letter": "H",
+            "requires_tv_licence": true
+          },
+          "episode_id": "m0019mkj",
+          "version_id": "m0019mkh",
+          "service_id": "bbc_one_london",
+          "channel_title": "BBC One London",
+          "type": "broadcast",
+          "events": [
+            {
+              "name": "started",
+              "system": "uas",
+              "time": "2023-09-11T10:25:11.000Z"
+            },
+            {
+              "name": "ended",
+              "system": "uas",
+              "time": "2023-09-11T10:59:16.000Z"
+            },
+            {
+              "name": "iplxp-ep-started",
+              "system": "optimizely",
+              "time": "2023-09-11T10:15:41.000Z"
+            },
+            {
+              "name": "iplxp-ep-watched",
+              "system": "optimizely",
+              "time": "2023-09-11T10:59:16.000Z"
+            },
+            {
+              "name": "iplxp-ep-started",
+              "system": "dax",
+              "time": "2023-09-11T10:15:41.000Z"
+            },
+            {
+              "name": "iplxp-ep-watched",
+              "system": "dax",
+              "time": "2023-09-11T10:59:16.000Z"
+            }
+          ]
+         }
+     ]
+    }
+  }
