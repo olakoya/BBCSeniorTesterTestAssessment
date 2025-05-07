@@ -1,6 +1,7 @@
 Functional Manual Testing: Gherkin Manual Test Cases
 
 Test Case 1: Verify the schedule returns a list of episodes with valid id and type
+-------------------------------------------------------------------------------------
 
 Feature: Schedule API Data Integrity
 
@@ -27,6 +28,7 @@ Schedule Item ID and Type Validation
 
 
 Test Case 2: Verify only one episode is marked as "live" in the schedule
+----------------------------------------------------------------------------
 
 Feature: Live Episode Verification
 
@@ -50,6 +52,7 @@ Live Episode Uniqueness
 
 
 Test Case 3: Validate the transmission times for episodes
+------------------------------------------------------------
 
 Feature: Transmission Time Validity
 
