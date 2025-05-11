@@ -179,9 +179,9 @@ This repository includes a GitHub Actions workflow that:
 You can find it in: .github/workflows/python-tests.yml
 
 ## Screenshots
-1. Passing Test in Postman can be found in (https://github.com/olakoya/BBCSeniorTesterTestAssessment.git/postman_screenshots)
+1. Passing Test in Postman can be found in (https://github.com/olakoya/BBCSeniorTesterTestAssessment.git)
 
-2. Failing Test in Postman can be found in (postman_screenshots)
+2. Failing Test in Postman can be found in (https://github.com/olakoya/BBCSeniorTesterTestAssessment.git)
 
 
 
