@@ -2,7 +2,7 @@
 
 **This project is a solution for the BBC Senior Tester Technical Assessment, covering both functional manual testing and automated testing of a public schedule API.**
 
-**Also, this automated tests are written in Python using `pytest-bdd` for behavior-driven testing of a schedule-based API endpoint, of which it's designed as part of the technical assessment.**
+**The automated tests are written in Python using pytest-bdd to enable behavior-driven development (BDD) for a schedule-based API. These tests are part of the overall technical assessment submission.**
 
 ---
 ## *Part 1: Automation Testing*
@@ -169,8 +169,19 @@ Troubleshooting
 
     - Ensure you're using Python 3.9 or higher.
 
+## GitHub Actions CI
+This repository includes a GitHub Actions workflow that:
 
+1. Installs dependencies
 
+2. Runs pytest on every push to main
+
+You can find it in: .github/workflows/python-tests.yml
+
+## Screenshots
+1. Passing Test in Postman can be found in (https://github.com/olakoya/BBCSeniorTesterTestAssessment.git/postman_screenshots)
+
+2. Failing Test in Postman can be found in (postman_screenshots)
 
 
 
