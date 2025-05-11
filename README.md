@@ -2,7 +2,7 @@
 
 **This project is a solution for the BBC Senior Tester Technical Assessment, covering both functional manual testing and automated testing of a public schedule API.**
 
-**Also, it contains automated tests written in Python using `pytest-bdd` for behavior-driven testing of a schedule-based API endpoint. It is designed as part of a technical assessment for a Senior Tester role at the BBC.**
+**Also, this automated tests are written in Python using `pytest-bdd` for behavior-driven testing of a schedule-based API endpoint, of which it's designed as part of the technical assessment.**
 
 ---
 ## *Part 1: Automation Testing*
@@ -112,7 +112,7 @@ How to Run Automated Tests
 
 Test Cases Overview
 --------------------
-### *Test Case ID: TC01*
+### *Test Case ID: TC_API_001*
 
 Test Objective: Verify successful API response and performance
 
@@ -121,7 +121,7 @@ Test Steps: Send GET to /schedules/bbc_one_london/<valid-date>
 Expected Result: HTTP 200 OK, response time < 1000ms
 
 
-### *Test Case ID: TC02*	
+### *Test Case ID: TC_API_002*	
 
 Test Objective: Verify data fields and episode structure
 
@@ -130,7 +130,7 @@ Test Steps: Check each schedule item for id, type, title, transmission times
 Expected Result: All fields valid, type = "episode", correct order
 
 
-### *Test Case ID: TC03*
+### *Test Case ID: TC_API_003*
 
 Test Objective: Validate 404 and error message for invalid date request	
 
@@ -143,7 +143,7 @@ How to Run Manual Tests in Postman
 -----------------------------------
 1. Open Postman
 
-2. Create a new GET request to the following endpoint:
+2. Create a new GET request to the following endpoint: https://testapi.io/api/RMSTest/ibltest
 
 3. Click Send
 
@@ -153,7 +153,7 @@ How to Run Manual Tests in Postman
 
    - Validate response body structure
 
-   - Confirm response time is < 1 second
+   - Confirm response time is < 1000 millisecond
     
 
 Troubleshooting
