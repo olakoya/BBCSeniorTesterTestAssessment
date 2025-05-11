@@ -71,7 +71,7 @@ The suite includes test coverage for the following:
 
 ## *How to Run Tests Locally:*
 
-## *Dependencies*
+## Dependencies
 1. pytest
 2. pytest-bdd
 3. requests
