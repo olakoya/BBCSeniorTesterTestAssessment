@@ -78,11 +78,11 @@ The suite includes test coverage for the following:
 
 Setup Instructions And Running of  Automated Tests
 ----------------------------------------------------
-### 1. Clone the Repository
+### 1. Clone the Repository:
      - git clone https://github.com/olakoya/BBCSeniorTesterTestAssessment.git
      - cd bbc-senior-tester-assessment
 
-### 2. Create and Activate Virtual Environment
+### 2. Create and Activate Virtual Environment:
      - python -m venv .venv
      - source .venv/bin/activate  # (For Windows: .venv\Scripts\activate)
 
