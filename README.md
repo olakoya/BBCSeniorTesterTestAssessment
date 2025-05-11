@@ -8,7 +8,7 @@
 ## *Part 1: Automation Testing*
 
 Tech Stack
-----------
+-----------
 1. Language: Python version 3.9+
 
 2. Test Framework: pytest, pytest-bdd
@@ -71,42 +71,31 @@ The suite includes test coverage for the following:
 
 ## *How to Run Tests Locally:*
 
-Setup Instructions
--------------------
-### 1. Clone the Repository
-     - git clone https://github.com/olakoya/BBCSeniorTesterTestAssessment.git
-     - cd bbc-senior-tester-assessment
-
-
-### 2. Create and Activate Virtual Environment
-     - python -m venv .venv
-     - source .venv/bin/activate  # (For Windows: .venv\Scripts\activate)
-
-
-### 3. Install Dependencies
-     - pip install -r requirements.txt
-
-### 4. Run Tests
-    - pytest
-
----
 ## *Dependencies*
 1. pytest
 2. pytest-bdd
 3. requests
 
-### Install them via:
-   - pip install -r requirements.txt
+Setup Instructions And Running of  Automated Tests
+----------------------------------------------------
+### 1. Clone the Repository
+     - git clone https://github.com/olakoya/BBCSeniorTesterTestAssessment.git
+     - cd bbc-senior-tester-assessment
 
+### 2. Create and Activate Virtual Environment
+     - python -m venv .venv
+     - source .venv/bin/activate  # (For Windows: .venv\Scripts\activate)
 
-How to Run Automated Tests
----------------------------
-1. Run all scenarios:
-   - pytest
-2. Run with detailed output:
-   - pytest -v
+### 3. Install Dependencies via:
+     - pip install -r requirements.txt
 
---- 
+### 4. Run all Tests Scenarios:
+    - pytest
+
+### 5. Run with detailed output:
+      - pytest -v
+
+---
 
 ## *Part 2: Functional Manual Testing*
 
@@ -139,9 +128,9 @@ Test Steps: Send GET to /schedules/bbc_one_london/invalid-date
 Expected Result:	HTTP 404, JSON body with details, code
 
 
-How to Run Manual Tests in Postman
------------------------------------
-1. Open Postman
+Run Manual Tests in Postman
+----------------------------
+1. Open Postman (https://web.postman.co/workspace/My-Workspace~185a1c3a-8d6d-4eeb-82db-2a0bd64fb53f/request/create?requestId=c8366ae4-f6fd-4fca-b66d-9de73d7bf5b9)
 
 2. Create a new GET request to the following endpoint: https://testapi.io/api/RMSTest/ibltest
 
@@ -153,11 +142,11 @@ How to Run Manual Tests in Postman
 
    - Validate response body structure
 
-   - Confirm response time is < 1000 millisecond
+   - Confirm response time is less than 1000 millisecond
     
 
 Troubleshooting
----------------
+----------------
 1. Couldn't resolve host
 
       - Use the Desktop Agent in Postman.
@@ -176,7 +165,7 @@ This repository includes a GitHub Actions workflow that:
 
 2. Runs pytest on every push to main
 
-You can find it in: .github/workflows/python-tests.yml
+It can be found in: .github/workflows/python-tests.yml
 
 ## Screenshots
 1. Passing Test in Postman can be found in (https://github.com/olakoya/BBCSeniorTesterTestAssessment.git)
