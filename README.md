@@ -11,9 +11,9 @@ Tech Stack
 -----------
 1. Language: Python version 3.9+
 
-2. Test Framework: pytest, pytest-bdd
+2. Test Framework: Pytest, Pytest-BDD
 
-3. HTTP Requests: requests
+3. HTTP Requests: Requests
 
 4. IDE: PyCharm 
 
