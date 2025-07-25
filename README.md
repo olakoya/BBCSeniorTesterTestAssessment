@@ -1,4 +1,4 @@
-# BBC SENIOR TESTER TEST ASSESSMENT
+# AUTOMATED A SCHEDULE-BASED API
 
 **This project is a solution for the BBC Senior Tester Technical Assessment, covering both functional manual testing and automated testing of a public schedule API.**
 
