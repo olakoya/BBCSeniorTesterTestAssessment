@@ -2,7 +2,7 @@
 
 **This project is a solution for the BBC Senior Tester Technical Assessment, covering both functional manual testing and automated testing of a public schedule API.**
 
-**The automated tests are written in Python using pytest-bdd to enable behavior-driven development (BDD) for a schedule-based API. These tests are part of the overall technical assessment submission.**
+**The automated tests are written in Python using pytest-bdd to enable behaviour-driven development (BDD) for a schedule-based API. These tests are part of the overall technical assessment submission.**
 
 ---
 ## *Part 1: Automation Testing*
